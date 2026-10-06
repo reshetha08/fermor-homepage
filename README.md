@@ -7,18 +7,6 @@ Hi there! 👋 Welcome to my submission for the Fermor frontend assignment. I've
 
 ---
 
-## 📸 Screenshots
-
-*(To the reviewer: Screenshots of the responsive design are provided below.)*
-
-**Desktop View:**
-![Desktop View](https://via.placeholder.com/800x450?text=Desktop+View+-+Drag+your+screenshot+here+in+GitHub)
-
-**Mobile View:**
-<img src="https://via.placeholder.com/300x600?text=Mobile+View+-+Drag+your+screenshot+here" width="250" alt="Mobile View" />
-
----
-
 ## 🧠 Product Thinking & Design Decisions
 
 When thinking about how to approach the Fermor homepage, my main goal was to strike a perfect balance. Finance platforms often fall into two extremes: they are either intimidating and overly complex, or they look a bit too generic. 
