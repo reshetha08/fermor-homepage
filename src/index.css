@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+@config '../tailwind.config.js';
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #eef2f6;
+  background: #0a0f1c;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --bg: #0a0f1c;
+  --surface: #111a29;
+  --surface-raised: #151f30;
+  --text: #eef2f6;
+  --muted: #919cad;
+  --line: rgba(195, 210, 229, .12);
+  --blue: #3b82f6;
+  --mint: #a9f5ce;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 360px; scroll-behavior: smooth; scroll-padding-top: 84px; }
+body { min-width: 360px; margin: 0; }
+body, button, input { font-family: 'DM Sans', sans-serif; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+button { color: inherit; }
+::selection { color: #0a0f1c; background: #a9f5ce; }
+#root { min-height: 100vh; overflow: clip; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
